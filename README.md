@@ -1,5 +1,20 @@
 # Ada Experiments
 
+### Fortune Server
+
+Server that outputs the `fortune` command output:
+
+```console
+$ nix-shell
+$ make server
+$ ./bin/server
+Fortune server running on port 9000
+
+$ curl localhost:9000
+The life which is unexamined is not worth living.
+                -- Plato
+```
+
 ### Program that prints itself
 
 ```console
